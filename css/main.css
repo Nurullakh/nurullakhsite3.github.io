@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'San Francisco Pro Display Bold';
+  src: url("../fonts/SFProDisplay-Bold.eot");
+  src: url("../fonts/SFProDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/SFProDisplay-Bold.woff") format("woff"), url("../fonts/SFProDisplay-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'San Francisco Pro Display Medium';
+  src: url("../fonts/SFProDisplay-Medium.eot");
+  src: url("../fonts/SFProDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/SFProDisplay-Medium.woff") format("woff"), url("../fonts/SFProDisplay-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+a, a:hover, a:active, a:focus,
+button, input, button:hover, button:active, button:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: none; }
+
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0; }
+
+nav .nav__wrap {
+  padding-top: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  nav .nav__wrap .logo {
+    display: flex;
+    align-items: center; }
+    nav .nav__wrap .logo h1 {
+      font-family: 'San Francisco Pro Display Bold', sans-serif;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+      width: 120px;
+      height: 51px;
+      margin-left: 7px; }
+  nav .nav__wrap .nav__list ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none; }
+    nav .nav__wrap .nav__list ul li {
+      margin-right: 45px; }
+      nav .nav__wrap .nav__list ul li a {
+        font-family: 'San Francisco Pro Display Bold', sans-serif;
+        font-size: 13px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #000; }
+
+header .header__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 132px; }
+  header .header__wrap .header__info {
+    max-width: 685px; }
+    header .header__wrap .header__info h2 {
+      font-family: 'San Francisco Pro Display Bold', sans-serif;
+      font-size: 34px;
+      line-height: 41px; }
+    header .header__wrap .header__info .header__text {
+      font-family: 'San Francisco Pro Display Medium', sans-serif;
+      margin: 31px 0 85px 0;
+      max-width: 602px;
+      font-size: 16px;
+      line-height: 19px; }
+      header .header__wrap .header__info .header__text p {
+        margin-bottom: 10px; }
+    header .header__wrap .header__info button {
+      font-family: 'San Francisco Pro Display Bold', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 398px;
+      height: 58px;
+      background: #2472E8;
+      border-radius: 8px;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #F5FAFF; }
+      header .header__wrap .header__info button img {
+        display: block;
+        margin-right: 21px; }
+    header .header__wrap .header__info .header__answer {
+      margin-top: 33px;
+      display: flex; }
+      header .header__wrap .header__info .header__answer .answer__img {
+        display: flex;
+        align-items: center;
+        margin-right: 12px; }
+      header .header__wrap .header__info .header__answer .answer__text {
+        line-height: 136.84%;
+        font-family: 'San Francisco Pro Display Bold', sans-serif;
+        font-size: 11px;
+        text-transform: uppercase; }
+  header .header__wrap .header__img {
+    margin-bottom: 126px; }
+
+.first {
+  background-color: #f9f9f9; }
+  .first .first__title {
+    font-family: 'San Francisco Pro Display Bold', sans-serif;
+    font-size: 34px;
+    margin-top: 61px; }
+  .first .first__wrap .first__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 78px;
+    padding: 0; }
+    .first .first__wrap .first__list li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 87px; }
+      .first .first__wrap .first__list li .first__list_dash {
+        display: block;
+        width: 60px;
+        height: 0px;
+        border: 2px solid #000000;
+        margin-right: 46px; }
+      .first .first__wrap .first__list li .first__list_text {
+        font-family: 'San Francisco Pro Display Medium', sans-serif;
+        font-size: 20px;
+        width: 434px; }
+  .first .first__border {
+    display: block;
+    width: 100%;
+    border: 2px solid #000000;
+    margin: 36px 0 75px 0; }
+  .first .first__info {
+    font-family: 'San Francisco Pro Display Medium', sans-serif;
+    font-size: 18px;
+    color: #171717;
+    margin-bottom: 88px; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=main.css.map */

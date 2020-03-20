@@ -1,0 +1,142 @@
+@mixin btnOne
+	+bold
+	display: flex
+	justify-content: center
+	align-items: center
+	width: 398px
+	height: 58px
+	background: #2472E8
+	border-radius: 8px
+	font-size: 14px
+	text-transform: uppercase
+	color: #F5FAFF
+	img
+		display: block
+		margin-right: 21px
+
+
+
+@mixin line
+	display: block
+	width: 60px
+	height: 0px
+	border: 2px solid #000000
+
+@mixin title
+	+bold
+	font-size: 34px
+
+a, a:hover, a:active, a:focus,
+button, input, button:hover, button:active, button:focus 
+	color: #fff
+	text-decoration: none
+	outline: none
+
+h1, h2, h3, h4, p
+	margin: 0
+	padding: 0
+
+
+nav
+	.nav__wrap
+		padding-top: 64px
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
+		.logo
+			display: flex
+			align-items: center
+			h1
+				+bold
+				font-size: 14px
+				line-height: 17px
+				text-transform: uppercase
+				width: 120px
+				height: 51px
+				margin-left: 7px
+		.nav__list
+			ul
+				display: flex
+				flex-wrap: wrap
+				list-style: none
+				li
+					margin-right: 45px
+					a
+						+bold
+						font-size: 13px
+						text-transform: uppercase
+						text-decoration: none
+						color: #000
+header
+	.header__wrap
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+		margin-top: 132px
+		
+		.header__info
+			max-width: 685px
+			h2
+				+bold
+				font-size: 34px
+				line-height: 41px
+			.header__text
+				+medium
+				margin: 31px 0 85px 0
+				max-width: 602px
+				font-size: 16px
+				line-height: 19px
+				p
+					margin-bottom: 10px
+			button
+				+btnOne
+			.header__answer
+				margin-top: 33px
+				display: flex
+				.answer__img
+					display: flex
+					align-items: center
+					margin-right: 12px
+				.answer__text
+					line-height: 136.84%
+					+bold
+					font-size: 11px
+					text-transform: uppercase
+		.header__img
+			margin-bottom: 126px
+.first
+	background-color: #f9f9f9
+	.first__title
+		+title
+		margin-top: 61px
+	.first__wrap
+		.first__list
+			display: flex
+			flex-wrap: wrap
+			justify-content: space-between
+			margin-top: 78px 
+			padding: 0
+			li
+				display: flex
+				align-items: center
+				margin-bottom: 87px
+				.first__list_dash
+					+line
+					margin-right: 46px
+				.first__list_text
+					+medium
+					font-size: 20px
+					width: 434px
+	.first__border
+		display: block
+		width: 100%
+		border: 2px solid #000000
+		margin: 36px 0 75px 0
+	.first__info
+		+medium
+		font-size: 18px
+		color: #171717
+		margin-bottom: 88px
+
+
+
